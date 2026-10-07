@@ -1,0 +1,8 @@
+[build]
+  publish = "my car project"
+
+# Serve the Car Dodge game at the site root
+[[redirects]]
+  from = "/"
+  to = "/dodge.html"
+  status = 200

@@ -44,6 +44,9 @@
       border-radius: 6px;
       box-shadow: 0 0 30px #e94560aa;
       display: block;
+      /* shrink to fit small screens while keeping the 400x560 aspect ratio */
+      width: min(400px, 92vw, calc((100vh - 190px) * 400 / 560));
+      height: auto;
     }
 
     #overlay {
